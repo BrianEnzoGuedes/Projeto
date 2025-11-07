@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro com CEP Automático</title>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-carro">
+  <h2>Cadastro de Endereço</h2>
+  <form id="form-endereco">
+    <label>CEP:</label>
+    <input type="text" id="cep" maxlength="8" placeholder="Digite o CEP" required>
+    <br><br>
+
+    <label>Rua:</label>
+    <input type="text" id="rua" readonly>
+    <br><br>
+
+    <label>Bairro:</label>
+    <input type="text" id="bairro" readonly>
+    <br><br>
+
+    <label>Cidade:</label>
+    <input type="text" id="cidade" readonly>
+    <br><br>
+
+    <label>Estado:</label>
+    <input type="text" id="estado" readonly>
+    <br><br>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script src="js/Cadastro.js"></script>
+</body>
+</html>
